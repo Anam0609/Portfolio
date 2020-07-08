@@ -1,35 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "71201b9701ec2c43cc8113b610577fca",
+    "revision": "94b554e50db5bf8760665779ea940e5e",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "698a7fdc971ed52fbb1c",
+    "revision": "35c07f65e1c0d7bfae72",
     "url": "/Portfolio/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "103b0b2557e9b7840525",
-    "url": "/Portfolio/static/css/main.2366d2c8.chunk.css"
+    "revision": "a1af1f28d319730683dc",
+    "url": "/Portfolio/static/css/main.2399ef79.chunk.css"
   },
   {
-    "revision": "698a7fdc971ed52fbb1c",
-    "url": "/Portfolio/static/js/2.1e86708c.chunk.js"
+    "revision": "35c07f65e1c0d7bfae72",
+    "url": "/Portfolio/static/js/2.e26614e9.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/Portfolio/static/js/2.1e86708c.chunk.js.LICENSE.txt"
+    "url": "/Portfolio/static/js/2.e26614e9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "103b0b2557e9b7840525",
-    "url": "/Portfolio/static/js/main.a6ab74e5.chunk.js"
+    "revision": "a1af1f28d319730683dc",
+    "url": "/Portfolio/static/js/main.f3e48dca.chunk.js"
   },
   {
     "revision": "efed155d89bc85b81984",
     "url": "/Portfolio/static/js/runtime-main.88fabfc4.js"
-  },
-  {
-    "revision": "89aa13d03de530e2ea29ebb3c816d10e",
-    "url": "/Portfolio/static/media/Art gallery.89aa13d0.png"
   },
   {
     "revision": "43a1f03d5d866ea3a98eff40e75731af",
@@ -46,10 +42,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f7433e753a84fec7f73e4a889595e16d",
     "url": "/Portfolio/static/media/contact-keeper.f7433e75.png"
-  },
-  {
-    "revision": "afa0b3f7fd5df64008b27610d6f951ec",
-    "url": "/Portfolio/static/media/email.afa0b3f7.png"
   },
   {
     "revision": "58a7d25e84cabe42abb8c897eaaf36a7",
@@ -86,6 +78,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "aae22fa1f0e61c29472e1c1c41be31da",
     "url": "/Portfolio/static/media/prevention.aae22fa1.png"
+  },
+  {
+    "revision": "34c0f20ae9f95deea7e798f30561e77c",
+    "url": "/Portfolio/static/media/team.34c0f20a.png"
   },
   {
     "revision": "5332a1fe77f249d58af24bae2be2e23b",
