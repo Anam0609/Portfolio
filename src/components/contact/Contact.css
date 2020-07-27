@@ -1,0 +1,149 @@
+.heading {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.text {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.text p {
+  margin-top: 3rem;
+}
+
+.contact {
+  padding: 37px;
+  background: #000;
+  text-align: center;
+}
+
+.about .contentBx {
+  background: #0000;
+  color: #fff;
+  padding: 100px;
+  width: 50%;
+}
+
+.imgBx2 {
+  background: url('../images/contact-us-2993000_1920.jpg');
+  width: 50%;
+  background-size: cover;
+  background-position: center;
+}
+
+.form .inputBx input {
+  width: 100%;
+  border: none;
+  background: transparent;
+  box-shadow: none;
+  outline: none;
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+
+.form .inputBx {
+  margin-top: 40px;
+}
+
+.form .inputBx input::placeholder {
+  color: #fff;
+}
+
+.form .inputBx textarea {
+  width: 100%;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  outline: none;
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: 300;
+  min-height: 150px;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+
+.form .inputBx textarea::placeholder {
+  color: #fff;
+}
+
+.form .inputBx button {
+  border-radius: 47px;
+  width: 150px;
+  background: #f70606;
+  box-shadow: -48px -48px 100px #070e12, 48px 48px 100px #000;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.arrow{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: #f70606;
+  box-shadow: -48px -48px 100px #070e12, 48px 48px 100px #000;
+    bottom: 26px;
+    right: 21px;
+    text-align: center;
+    align-items: center;
+    line-height: 50px;
+    font-size: 39px;
+}
+
+.arrow i {
+  color:#fff;
+}
+
+@media (max-width: 991px) {
+  .contact {
+    padding: 15px;
+    background: #272727;
+  }
+  .about {
+    flex-direction: column;
+  }
+
+  .about .contentBx,
+  .about {
+    width: 100%;
+    position: inherit;
+    padding: 15px;
+    min-height: 600px;
+    text-align: center;
+  }
+
+  .imgBx2{
+    display: none;
+  }
+
+  .form .inputBx button {
+    border-radius: 47px;
+    background: #12222d;
+    box-shadow: -48px -48px 100px #070e12, 48px 48px 100px #1d3648;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .arrow {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background: #12222d;
+    box-shadow: -48px -48px 100px #070e12, 48px 48px 100px #1d3648;
+    bottom: 26px;
+    right: 21px;
+    line-height: 40px;
+    font-size: 30px;
+}
+}

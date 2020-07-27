@@ -1,0 +1,42 @@
+.work{
+  background: #000;
+  text-align: center;
+}
+
+
+
+.card-body {
+    background: #fff;
+    color: #000;
+    padding: 5px;
+   border: 1px solid black;
+   text-align: center;
+   margin-bottom: 30px;
+}
+
+
+.card:hover{
+  opacity: 1;
+  transform: scale(1.1);
+
+}
+
+.text-secondary{
+  font-style:italic;
+  color: #000;
+  font-size: 20px;
+  
+}
+
+
+
+
+@media (max-width: 991px) {
+  .work {
+    padding: 50px;
+    background: #12222d;
+  }
+
+  
+
+}

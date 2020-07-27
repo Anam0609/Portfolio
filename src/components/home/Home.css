@@ -1,0 +1,137 @@
+
+#home{
+    height: 700px;
+    background: url(../images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100%;
+}
+
+ul{
+  display: block;
+  list-style: none;
+  float:right;
+}
+
+li{
+    float: right;
+}
+
+span{
+    cursor: pointer;
+    padding: 20px;
+    width:100%;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.Nav-band{
+  display: none;
+}
+
+.content button{
+    cursor: pointer;
+    margin-top: 314px;
+}
+
+span:hover{
+  background-color: #1d3648;
+}
+
+.content{
+  transition: 0.5s;
+  background-color: #272727;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.text {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.content h2 {
+  font-size: 60px;
+}
+
+.content p {
+  font-size: 18px;
+}
+
+.modal img{
+  margin:auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+.modal-body{
+  text-align: center;
+    font-size: 32px;
+    color: #12222d;
+    font-weight: 700
+}
+
+.btn-lg{
+  color: #fff;
+  border: 2px solid #2e2e2e;
+  border-radius: 47px;
+  background: #f70606;
+  box-shadow: -48px -48px 100px #070e12, 48px 48px 100px #000;
+  color: #fff;
+  box-shadow: 0 20px 50px rgba(0,0,0,.5);
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+.btn-lg:hover{
+  background-color: #000;
+}
+
+
+.modal-footer button{
+  background: #f70606;
+}
+
+.navbar-dark .navbar-brand{
+  display: none;
+}
+
+.navbar-dark{
+  position: fixed;
+}
+
+@media (max-width: 991px) {
+   .content {
+    padding: 50px;
+  }
+
+
+  .btn-lg{
+    border-radius: 47px;
+    background: #272727;
+    box-shadow: -48px -48px 100px #070e12, 48px 48px 100px #1d3648;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .navbar-dark .navbar-brand {
+    display: block;
+    color: #fff;
+}
+}
