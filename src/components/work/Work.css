@@ -24,8 +24,16 @@
 .text-secondary{
   font-style:italic;
   color: #000;
-  font-size: 20px;
+  font-size: 30px;
   
+}
+
+.work .heading {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
 }
 
 
@@ -37,6 +45,8 @@
     background: #12222d;
   }
 
-  
+  .text-secondary{
+    font-size: 40px;
+  }
 
 }

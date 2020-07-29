@@ -13,6 +13,8 @@
 .container{
   position: relative;
   color: #fff;
+  margin-top: 29px;
+  padding-top: 57px;
 }
 
 .container h2{

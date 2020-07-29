@@ -20,9 +20,9 @@
   margin-bottom: 10px;
 }
 
-.text {
+.about .text {
   color: #fff;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 300;
   letter-spacing: 1px;
 }
@@ -44,7 +44,7 @@
   .about  {
     width: 60%;
     padding: 50px;
-    min-height: 600px;
+    min-height: 400px;
     text-align: center;
   }
   .imgBx{
