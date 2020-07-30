@@ -12,9 +12,18 @@
   color: white;
 }
 
- .nav-link{
+
+.navbar{
+  cursor: pointer;
+}
+.nav-link:hover{
+  background: #777;
+}
+
+.navbar .nav-link{
   float: right;
 }
+
 span{
   color:#fff;
 }
