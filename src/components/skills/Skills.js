@@ -35,9 +35,9 @@ const Skills = () => {
             <div className='_skills'>
               <span className='name'>Python</span>
               <div className='percent'>
-                <div className='progress' style={{ width: '80%' }} />
+                <div className='progress' style={{ width: '70%' }} />
               </div>
-              <span className='value'>80%</span>
+              <span className='value'>70%</span>
           </div>
           
             <div className='_skills'>
@@ -46,6 +46,14 @@ const Skills = () => {
                 <div className='progress' style={{ width: '60%' }} />
               </div>
               <span className='value'>60%</span>
+            </div>
+
+            <div className='_skills'>
+              <span className='name'>Reactjs</span>
+              <div className='percent'>
+                <div className='progress' style={{ width: '40%' }} />
+              </div>
+              <span className='value'>40%</span>
             </div>
           </div>
         </div>

@@ -12,26 +12,20 @@
   color: white;
 }
 
-
-.navbar{
+.navbar {
   cursor: pointer;
 }
-.nav-link:hover{
+.nav-link:hover {
   background: #777;
 }
 
-.navbar .nav-link{
-  float: right;
+span {
+  color: #fff;
 }
 
-span{
-  color:#fff;
+img {
+  width: 60%;
 }
-
-img{
-  width:60%;
-}
-
 
 .fh5co-top-banner {
   position: relative;
@@ -43,7 +37,7 @@ img{
 }
 
 .fh5co-top-banner::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -118,7 +112,7 @@ img{
   font-size: 74px;
   letter-spacing: 3px;
   color: #fff;
-  font-family: "Calisto-MT-Bold";
+  font-family: 'Calisto-MT-Bold';
 }
 @media (max-width: 1250px) {
   .top-banner__inner .top-banner__h2 {

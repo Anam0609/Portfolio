@@ -5,7 +5,7 @@ const Testimonials = (props) => {
   return (
     
     <div>
-      <img className="card-img-top" src={props.image} alt="image" />
+      <img className="card-img-top" src={props.image} alt="img" />
         <div className='card-body' style={{ width: '100%' }}>
           <h4 className='card-title'>{props.title}</h4>
           <p className='card-text text-secondary'>{props.text}</p>

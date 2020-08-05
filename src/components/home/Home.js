@@ -5,7 +5,7 @@ import './Home.css';
 const Home = () => {
   return (
     <>
-      <nav id='navbar' className='navbar navbar-expand-lg navbar-dark bg-dark'>
+      <nav id='navbar' className='navbar fixed-top navbar-expand-lg navbar-dark bg-dark'>
         <a className='navbar-brand' href='/'>
           Anam
         </a>
@@ -100,7 +100,7 @@ const Home = () => {
       <section className='fh5co-top-banner' id='home'>
         <div className='top-banner__inner site-container'>
           <div className='top-banner__image'>
-            <img src={require('../images/Me.jpg')} alt='image'/>
+            <img src={require('../images/Me.jpg')} alt='img'/>
           </div>
           <div className='top-banner__text'>
             <div className='top-banner__text-up'>
